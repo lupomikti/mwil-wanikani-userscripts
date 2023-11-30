@@ -1,0 +1,57 @@
+.wk_namespace.item-info-injector {
+    line-height: revert;
+}
+
+.wk_namespace .subject-character-grid__item {
+    container-type: normal;
+    position: relative;
+    width: 112px;
+    max-width: 200px;
+}
+
+.wk_namespace .subject-character--grid .subject-character__characters {
+    font-size: var(--font-size-charater-large, 72px);
+    margin-bottom: var(--spacing-tight, 12px);
+}
+
+@media only screen and (min-width: 768px) {
+    .wk_namespace .subject-character-grid__item {
+        flex: 0 0 16.6666666667%;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .wk_namespace .subject-character-grid__item {
+        flex: 0 0 12.5%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .wk_namespace .subject-character-grid__item {
+        flex: 0 0 10%;
+    }
+}
+
+.wk_namespace .subject-character--grid .subject-character__content {
+    flex-direction: column;
+}
+
+.wk_namespace .subject-character--grid .subject-character__info {
+    align-items: center;
+}
+
+.wk_namespace .subject-character {
+    display: block;
+}
+
+.wk_namespace h2,
+.wk_namespace h3 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center
+}
+
+.wk_namespace h2 .btn-group:first-child,
+.wk_namespace h3 .btn-group:first-child {
+    margin-left: auto
+}
