@@ -17,8 +17,8 @@
 // @resource    wk_kanji_db  https://raw.githubusercontent.com/mwil/wanikani-userscripts/8ee517737d604f1df0ff103a33b69f1f07218815/wanikani-phonetic-compounds/db/wk_kanji_esc.json
 //
 // @resource    keisei_style https://raw.githubusercontent.com/mwil/wanikani-userscripts/c45eb62588535d072daf5f572f47d6b8a217b66c/wanikani-phonetic-compounds/css/keisei.css
+// @resource    chargrid     https://raw.githubusercontent.com/mwil/wanikani-userscripts/60be455419d65c13f704d0025a5b13747a6bddfb/wanikani-phonetic-compounds/css/chargrid.css
 //
-// @resource    chargrid     https://raw.githubusercontent.com/mwil/wanikani-userscripts/60be455419d65c13f704d0025a5b13747a6bddfb/styles/css/chargrid.css
 // @resource    bootstrapcss https://raw.githubusercontent.com/mwil/wanikani-userscripts/30e35798e7e61374017b211c3647600302df73dd/styles/bootstrap/css/bootstrap.crop.css
 // @resource    bootstrapjs  https://raw.githubusercontent.com/mwil/wanikani-userscripts/8ee517737d604f1df0ff103a33b69f1f07218815/styles/bootstrap/js/bootstrap.js
 //
