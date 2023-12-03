@@ -100,6 +100,7 @@ function NiaiDB()
 
                 k_info.level = k_data.level;
                 k_info.meanings = k_data.meanings.map(m => m.meaning);
+                k_info.readings = k_info[k_info.important_reading];
 
                 return k_info;
             }
