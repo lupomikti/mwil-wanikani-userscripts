@@ -169,7 +169,7 @@ function NiaiDB()
 
             let result = Object.values(similar_kanji);
 
-            result.sort((a,b) => b.locked - a.locked
+            result.sort((a,b) => a.locked - b.locked
                               || 2*Math.sign(b.score - a.score) +
                                  a.kan.localeCompare(b.kan))
                   .splice(19);
