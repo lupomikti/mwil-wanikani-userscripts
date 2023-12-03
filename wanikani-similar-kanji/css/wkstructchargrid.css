@@ -1,7 +1,3 @@
-.wk_namespace.item-info-injector {
-    line-height: revert;
-}
-
 .wk_namespace .subject-character-grid__item {
     container-type: normal;
     position: relative;
@@ -29,6 +25,7 @@
 @media only screen and (min-width: 1200px) {
     .wk_namespace .subject-character-grid__item {
         flex: 0 0 10%;
+        max-width: 122px;
     }
 }
 

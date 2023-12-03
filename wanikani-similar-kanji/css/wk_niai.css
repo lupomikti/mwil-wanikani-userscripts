@@ -20,9 +20,6 @@
 .wk_namespace ol.subject-character-grid__items li[id|=selfkanji] a.subject-character {
     background-color: #0a2;
     background-image: linear-gradient(to bottom, #0c4, #092);
-    border-top: 1px solid #0c4;
-    border-bottom: 1px solid #092;
-    border-left: 1px solid #0c4
 }
 
 @media (max-width: 767px) {
