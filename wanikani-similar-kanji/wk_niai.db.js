@@ -80,7 +80,7 @@ function NiaiDB()
                 };
 
                 for (const reading_info of k_data.readings) {
-                    switch (reading.type) {
+                    switch (reading_info.type) {
                         case 'kunyomi':
                             k_info.kunyomi.push(reading_info.reading);
                             if (reading_info.primary) k_info.important_reading = 'kunyomi';
