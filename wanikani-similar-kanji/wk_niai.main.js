@@ -186,7 +186,7 @@ function WK_Niai()
     WK_Niai.prototype.init = async function()
     {
         GM_addStyle(GM_getResourceText(`niai_style`)
-                        .replace(/\.wk_namespace/g, `#niai_section`));
+                        .replace(/\.wk_namespace/g, `#niai_section`)); // must use section id for higher specificity
 
         this.settings.debug      = GM_getValue(`debug`)      || false;
         this.settings.minify     = GM_getValue(`minify`)     || false;
