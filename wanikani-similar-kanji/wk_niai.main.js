@@ -122,7 +122,7 @@ function WK_Niai()
         similar_list.forEach(
             function(sim_kanji)
             {
-                if (!this.ndb.isKanjiInDB(sim_kanji))
+                if (!this.ndb.isKanjiInDB(sim_kanji) && !this.ndb.isKanjiInWK(sim_kanji))
                     return;
 
                 const sim_info = this.ndb.getInfo(sim_kanji);
