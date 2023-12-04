@@ -191,6 +191,8 @@ function NiaiDB()
                 $(`li[id$="${sim_kanji}"] a`)
                     .toggleClass(`subject-character--locked`, is_locked)
                     .toggleClass(`subject-character--unlocked`, !is_locked);
+                $(`li[id$="${sim_kanji}"] span.subject-character__reading`)
+                    .text(item.data.readings.find(ri => ri.primary).reading);
                 $(`li[id$="${sim_kanji}"] span.subject-character__meaning`)
                     .text(item.data.meanings[0].meaning);
                 $(`li[id$="${sim_kanji}"] a.subject-character`)
