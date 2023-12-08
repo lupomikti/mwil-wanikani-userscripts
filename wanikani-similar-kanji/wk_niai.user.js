@@ -33,7 +33,7 @@
 // @require     https://raw.githubusercontent.com/mwil/wanikani-userscripts/1b0c3206d29fee2029d5b37558ea5142360eec6e/wanikani-similar-kanji/wk_niai.db.js
 // @require     https://raw.githubusercontent.com/mwil/wanikani-userscripts/7f0ec344fda3df9441d55ae6ae73a01b001d96c8/wanikani-similar-kanji/wk_niai.modal.js
 // @require     https://raw.githubusercontent.com/mwil/wanikani-userscripts/866c490c4df4e0ee156a525f5d25ac5ea313339d/wanikani-similar-kanji/wk_niai.html.js
-// @require     https://raw.githubusercontent.com/mwil/wanikani-userscripts/1b0c3206d29fee2029d5b37558ea5142360eec6e/wanikani-similar-kanji/wk_niai.main.js
+// @require     https://raw.githubusercontent.com/mwil/wanikani-userscripts/3ee7da3128f1a4987ce7ac5cb166f7e8a7b23561/wanikani-similar-kanji/wk_niai.main.js
 //
 // @grant       GM_log
 // @grant       GM_getValue
